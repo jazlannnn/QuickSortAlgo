@@ -25,7 +25,7 @@ public class QuickSortAlgorithm {
 
     // Method to partition the array
     private static int partition(int[] array, int low, int high) {
-        int pivot = array[high]; // Choose the last element as the pivot
+        int pivot = array[high]; // Choose the last element as the pivot (one of the common pivot selection strategies because of its Simplicity and Avoiding Worst Case for Already Sorted Arrays)
         int i = (low - 1); // Initialize the smaller element index
         for (int j = low; j < high; j++) { // Iterate through the array
             if (array[j] < pivot) { // If the current element is less than the pivot
@@ -63,8 +63,3 @@ public class QuickSortAlgorithm {
         scanner.close(); // Close the scanner
     }
 }
-
-
-
-
-
