@@ -23,5 +23,3 @@ Quick Sort
 - Average Case: O(n log n) - Typical performance with random pivot selection.
 
 - Worst Case: O(n^2) - Occurs when the smallest or largest element is always chosen as the pivot, resulting in highly unbalanced partitions.
-
-## Analysis
